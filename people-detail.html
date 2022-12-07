@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People's Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg px-3 py-2">
+        <div class="container-fluid">
+          <a class="navbar-brand px-3 ms-5" href="Homepage.html" style="font-size: 2em;"><span>Code</span>rs.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item nav-btn mx-3 my-auto">
+                <a class="nav-link active color-black fw-normal" aria-current="page" href="Homepage.html">Home</a>
+              </li>
+              <li class="nav-item nav-btn mx-3 my-auto">
+                <a class="nav-link color-black fw-normal" href="courses.html">Courses</a>
+              </li>
+              <li class="nav-item nav-btn mx-3 my-auto">
+                <a class="nav-link color-black fw-normal" href="#">About us</a>
+              </li>
+              <li class="nav-item nav-btn mx-3 my-auto">
+                <a class="nav-link color-black fw-normal" href="#">Our Service</a>
+              </li>
+              <li class="nav-item mx-3">
+                <div class="btn-profile d-flex p-2 justify-content-center radius-3 dropdown">
+                    <a  class="px-2 d-flex flex-column justify-content-center text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/img/profile-pic.jpg" alt="" class="rounded-circle mx-auto" style="width: 3em;"></a>
+                    <a href="#" class="my-auto text-decoration-none text-black p-0 dropdown-toggle dropdown-toggle-split" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-start rounded-bottom">
+                        <li>
+                            <div class="dropdown-item">
+                                <p class="mb-2 fs-05">Signed in as</p>
+                                <p class="fw-bolder m-0">Krisna Putra</p>
+                                <p class="fs-05 m-0">Brawijaya University</p>
+                            </div>
+                        </li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="Profile.html">Your Profile</a></li>
+                        <li><a class="dropdown-item" href="LoginPage.html">Logout</a></li>
+                    </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <main class="container-fluid py-3">
+        <article class="container-lg d-flex gap-3 flex-column py-3 radius-1" >
+            <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column w-35">
+                    <div class="profile border border-2 rounded-3 p-4 mb-4">
+                        <div class="profile d-flex flex-column">
+                            <img src="assets/img/review/jasmine.jpg" alt="" class="rounded-circle mx-auto" style="width: 9em;">
+                            <p class="m-auto fw-bold py-1">Jasmine Asyifania</p>
+                            <p class="m-auto fw-normal fs-09 text-secondary py-1">I design an eye-catching UI/UX</p>
+                            <p class="fw-bold m-auto py-1" style="color: #FFDF70;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 4.8 <span class="text-dark">/</span> 5.0 <span class="text-secondary">(3)</span></p>
+                        </div>
+                        <div class="d-flex justify-content-between py-3">
+                            <a href="" class="btn btn-success border-0 w-45">Contact Me</a>
+                            <a href="" class="btn btn-light border w-45">Request a job</a>
+                        </div>
+                        <div class="details border-top py-2">
+                            <div class="d-flex justify-content-between py-1">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-globe pe-3 my-auto"></i>
+                                    <p class="pe-3 my-auto">Location</p>
+                                </div>
+                                <p class="my-auto">Malang</p>
+                            </div>
+                            <div class="d-flex justify-content-between py-1">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-briefcase pe-3 my-auto"></i>
+                                    <p class="pe-3 my-auto">Occupation</p>
+                                </div>
+                                <p class="my-auto">UI/UX Designer</p>
+                            </div>
+                            <div class="d-flex justify-content-between py-1">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check-double pe-3 my-auto"></i>
+                                    <p class="pe-3 my-auto">Jobs done</p>
+                                </div>
+                                <p class="my-auto">9 Job(s)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description border border-2 rounded-3 p-4 mb-4">
+                        <div class="user-desc">
+                            <h6 class="mb-4 fw-bold">Description</h6>
+                            <p class="mb-1">A graphic designer with over 10 years of experience. </p>
+                            <p>I use Canva for quick and cost-efficient design, I make graphic designs that deliver your message and content effectively engaging designs fitting different mediums:</p>
+                            <ul>
+                                <li>Print Design</li>
+                                <li>Social media</li>
+                                <li>Web banners and images</li>
+                                <li>Digital Publications</li>
+                            </ul>
+                            <p>Take my courses and start your UI/UX journey!</p>
+                        </div>
+                        <hr class="fs-2 my-2">
+                        <div class="skill d-flex flex-column">
+                            <h6 class="py-3 fw-bold">Capabilities</h6>
+                            <div class="d-flex flex-wrap">
+                                <a href="" class="btn btn-light border rounded-pill me-3">Canva</a>
+                                <a href="" class="btn btn-light border rounded-pill me-3">Canva Design</a>
+                                <div class="line-break"></div>
+                                <a href="" class="btn btn-light border rounded-pill me-3">Graphic Design</a>
+                                <a href="" class="btn btn-light border rounded-pill me-3">UI/UX Design</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column w-65 px-5">
+                    <h4 class="fw-bold text-capitalize">Jasmine Asyifania's courses</h5>
+                        <div class="d-flex flex-row justify-content-between gap-50 py-3" style="padding-left: 0;">
+                            <div class="card" style="width: 17rem;">
+                                <img src="assets/img/network-engineering-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body p-0 p-2">
+                                    <div class="d-flex py-1" style="height: 50px;">
+                                        <a href="" class="text-decoration-none">
+                                            <img src="assets/img/review/jasmine.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                        </a>
+                                        <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Jasmine Asyifania</a>
+                                    </div>
+                                    <div class="pt-2" style="height: 65px;">
+                                        <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">Network Engineering Fundamental</a></p>
+                                    </div>
+                                    <div class="py-1">
+                                        <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 5.0 / 5.0</p>
+                                    </div>
+                                    <hr class="border-2 my-1">
+                                    <div class="py-2 d-flex justify-content-center">
+                                        <div class="d-flex">
+                                            <a href="" class="text-decoration-none text-secondary px-1 my-auto"><i class="fa-solid fa-list my-auto "></i></a>
+                                        </div>
+                                        <div class=" d-flex flex-grow-1 justify-content-end">
+                                            <a href="" class="btn btn-success border-0 text-decoration-none text-center my-auto">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 17rem;">
+                                <img src="assets/img/web-programming-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body p-0 p-2">
+                                    <div class="d-flex py-1" style="height: 50px;">
+                                        <a href="" class="text-decoration-none">
+                                            <img src="assets/img/review/jasmine.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                        </a>
+                                        <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Jasmine Asyifania</a>
+                                    </div>
+                                    <div class="pt-2" style="height: 65px;">
+                                        <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">Web Programming Fundamental</a></p>
+                                    </div>
+                                    <div class="py-1">
+                                        <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 4.0 / 5.0</p>
+                                    </div>
+                                    <hr class="border-2 my-1">
+                                    <div class="py-2 d-flex justify-content-center">
+                                        <div class="d-flex">
+                                            <a href="" class="text-decoration-none text-secondary px-1 my-auto"><i class="fa-solid fa-list my-auto "></i></a>
+                                        </div>
+                                        <div class=" d-flex flex-grow-1 justify-content-end">
+                                            <a href="" class="btn btn-success border-0 text-decoration-none text-center my-auto">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 17rem;">
+                                <img src="assets/img/cybersecurity-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body p-0 p-2">
+                                    <div class="d-flex py-1" style="height: 50px;">
+                                        <a href="" class="text-decoration-none">
+                                            <img src="assets/img/review/jasmine.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                        </a>
+                                        <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Jasmine Asyifania</a>
+                                    </div>
+                                    <div class="pt-2" style="height: 65px;">
+                                        <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">First Step on Cyber Security</a></p>
+                                    </div>
+                                    <div class="py-1">
+                                        <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 4.5 / 5.0</p>
+                                    </div>
+                                    <hr class="border-2 my-1">
+                                    <div class="py-2 d-flex justify-content-center">
+                                        <div class="d-flex">
+                                            <a href="" class="text-decoration-none text-secondary px-1 my-auto"><i class="fa-solid fa-list my-auto "></i></a>
+                                        </div>
+                                        <div class=" d-flex flex-grow-1 justify-content-end">
+                                            <a href="" class="btn btn-success border-0 text-decoration-none text-center my-auto">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between gap-50 py-3" style="padding-left: 0;">
+                            <div class="card" style="width: 13rem;">
+                                <img src="assets/img/uiux.jpg" class="card-img-top" alt="...">
+                                <div class="card-body p-0 p-2">
+                                    <div class="d-flex py-1" style="height: 50px;">
+                                        <a href="" class="text-decoration-none">
+                                            <img src="assets/img/review/jasmine.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                        </a>
+                                        <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Jasmine Asyifania</a>
+                                    </div>
+                                    <div class="pt-2" style="height: 65px;">
+                                        <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">UI/UX Intermediate Course</a></p>
+                                    </div>
+                                    <div class="py-1">
+                                        <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 5.0 / 5.0</p>
+                                    </div>
+                                    <hr class="border-2 my-1">
+                                    <div class="py-2 d-flex justify-content-center">
+                                        <div class="d-flex">
+                                            <a href="" class="text-decoration-none text-secondary px-1 my-auto"><i class="fa-solid fa-cart-plus my-auto "></i></a>
+                                            <a href="" class="text-decoration-none text-secondary px-1 my-auto"><i class="fa-solid fa-list my-auto "></i></a>
+                                        </div>
+                                        <div class=" d-flex flex-grow-1 justify-content-end">
+                                            <a href="" class="btn btn-success border-0 text-decoration-none text-center my-auto">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5 pb-4" id="review" style="width: 43em;">
+                            <h5 class="fw-bold">Customer's review (2)</h5>
+                            <div class="d-flex flex-column mt-3">
+                                <div class="d-flex border-top border-2 py-4">
+                                    <div class="d-flex flex-column justify-content-start">
+                                        <img src="assets/img/review/ical.jpg" class="rounded-pill" style="width: 4em;" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column ps-3">
+                                        <p class="fw-bold mb-2">Muhammad Rafi Faisal</p>
+                                        <p class="text-secondary fs-09 mb-3">Brawijaya University</p>
+                                        <div class="d-flex flex-row">
+                                            <p class="fw-bold" style="color: #facd2c;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 5.0 <span class="text-dark">/</span> 5.0</p>
+                                            <span class="mx-2">-</span>
+                                            <p class="text-secondary">15 November 2022</p>
+                                        </div>
+                                        <p class="fw-light" style="text-align: justify;">
+                                            Amazing course. Easy to understand plus a very patient tutor. Always willing to help. Can't recommend more! A++++
+                                        </p>
+                                        <div class="d-flex">
+                                            <p class="fw-bold me-4"><i class="fa-regular fa-thumbs-up"></i> agree</p>
+                                            <p class="fw-bold me-4"><i class="fa-regular fa-thumbs-down"></i> disagree</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex border-top border-2 py-4">
+                                    <div class="d-flex flex-column justify-content-start">
+                                        <img src="assets/img/review/salma.jpg" class="rounded-pill" style="width: 4em;" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column ps-3">
+                                        <p class="fw-bold mb-2">Laela Salma Lathania</p>
+                                        <p class="text-secondary fs-09 mb-3">Brawijaya University</p>
+                                        <div class="d-flex flex-row">
+                                            <p class="fw-bold" style="color: #facd2c;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 4.5 <span class="text-dark">/</span> 5.0</p>
+                                            <span class="mx-2">-</span>
+                                            <p class="text-secondary">25 November 2022</p>
+                                        </div>
+                                        <p class="fw-light" style="text-align: justify;">
+                                            Very happy with everything!
+                                        </p>
+                                        <div class="d-flex">
+                                            <p class="fw-bold me-4"><i class="fa-regular fa-thumbs-up"></i> agree</p>
+                                            <p class="fw-bold me-4"><i class="fa-regular fa-thumbs-down"></i> disagree</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer class="container-fluid px-3 py-2 d-flex justify-content-between">
+        <div class="d-flex">
+            <a class="navbar-brand px-3 ms-5" href="Homepage.html" style="font-size: 2em;"><span>Code</span>rs.</a>
+            <p class="fw-normal px-3 fs-09 my-auto">&copy; All right reserved</p>
+        </div>
+        <div class="d-flex pe-5 me-2">
+            <p class="my-auto fs-15"><i class="fa-brands fa-facebook px-3 "></i></p>
+            <p class="my-auto fs-15"><i class="fa-brands fa-twitter px-3 "></i></p>
+            <p class="my-auto fs-15"><i class="fa-brands fa-linkedin px-3 "></i></p>
+            <p class="my-auto fs-15"><i class="fa-brands fa-instagram px-3 "></i></p>
+            <p class="my-auto fs-15"><i class="fa-brands fa-tiktok px-3 "></i></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0cf4c39c1c.js" crossorigin="anonymous"></script>  
+</body>
+</html>

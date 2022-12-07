@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+/*Tanya hanif 
+1. gimana cara jadiin a ngga tag inline dan menuhin seukuran tinggi nav nya?
+2. live server temenku ada yg gak auto-refresh, cara benerinnya gimana?
+3. Cara ngerapihin coders biar pas di tengah heightnya di nav walau font-size digedein
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+p {
+    font-size: 15px;
+}
+
+.nav-btn {
+    display: flex;
+    line-height: 42px;
+}
+
+.nav-btn a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-btn a:hover {
+    color: black;
+    background-color: #FBC1AD;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    transition: 0.5s;
+}
+
+
+.nav-logo {
+    float: left;
+    padding-left: 15px;
+    font-size: 17px;
+    line-height: 40px;
+    z-index: 3;
+    display: block;
+    
+}
+
+.nav-logo span {
+    color: #197159;
+}
+
+
+nav {
+    width: 100%;
+    background-color: #FADE9D;
+    font-family: "Poppins", sans-serif;
+    height: 7.5vh;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 3;
+    
+}
+
+
+ul {
+    margin: 0;
+    font-size: 12px;
+    font-weight: light;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+}
+
+.welcome-page {
+    height: 100vh;
+    width: 100%;
+  
+    background-image: url(../img/background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-wrapper p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.text-wrapper p::before {
+    content: 'Start Your New Journey and Explore A Lot Of Things About IT.';
+    animation: animate infinite 8s;
+}
+
+@keyframes animate {
+    40% {
+        content: 'Learn How to Code or Start Your Career as IT Freelancer';
+    }
+    
+}
+
+
+#signup {
+    color: rgb(96, 45, 45);
+}
+
+#signup:hover {
+    color: #808b68;
+}
+
+.register-button{
+    background-color: #FBC1AD;
+    color: rgb(96, 45, 45);
+    padding: 12px 64px;
+    border-radius: 12px;
+    transition: 300ms;
+}
+
+.register-button:hover{
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.text-wrapper h1 {
+    font-size: 50px;
+    font-weight: bold;
+    animation-name: coloring;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    padding: 10px;
+    color: #6e7b52;
+    transition: 2s;
+
+}
+
+@keyframes coloring {
+    0% {
+        color: #9b4234;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 1s;
+
+    }
+    25% {
+        color: #c9d065;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 1s;
+
+    }
+    50% {
+        color: #64527b;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 1s;
+    }
+    75% {
+        color: #b9e4d7;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 1s;
+
+
+    }
+
+}
+
+
+.about {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.about h1 {
+    height: 20vh;
+    display: flex;
+    font-size: 25px;
+    align-items: flex-end;
+}
+
+.about-wrapper {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.custom-shape-divider-top-1670139754 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1670139754 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 89px;
+}
+
+.custom-shape-divider-top-1670139754 .shape-fill {
+    fill: #D3E5AB;
+}
+
+
+.box-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.box p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box img {
+    width: 90%;
+
+}
+
+.our-vision h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.about p {
+    text-align: center;
+    width: 40%;
+}
+
+.person-wrapper {
+    display: flex;
+
+}
+
+.person {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.team {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.team p {
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.team h1 {
+    background-color: #CFE7EB;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.person-wrapper {
+    background-color: #CFE7EB;
+    padding-bottom: 30px;
+}
+
+
+.person img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+
+.person h3 {
+    margin-top: 20px ;
+}
+
+#waves {
+    z-index: 2;
+}
+
+.service {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.service h1 {
+    font-size: 25px;
+}
+
+.service-wrapper {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.service-wrapper img {
+    width: 30%;
+}
+
+.service-wrapper p {
+    padding: 50px 0 50px 0;
+    width: 30%;
+    text-align: center;
+}
+
+.contact-us {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+form {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+   
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 90%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.info h1,h2 {
+    padding-right: 20px;
+}
+
+
+.info h1 {
+    text-align: center;
+}
+
+
+.info h2 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+label, input, textarea {
+    width: 60%;
+}
+
+
+label {
+    margin-bottom: 7px;
+}
+
+input, textarea {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+    padding: 9px;
+}
+
+
+
+#submit-btn {
+    width: 30%;
+    height: 8%;
+    margin-top: 7px;
+    background-color: #D3E5AB;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#submit-btn:hover {
+    background-color: #808b68;
+    transition: 0.5s;
+    color: white;
+    
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    height: 20%;
+    width: 80%;
+    margin-bottom: 10px;
+
+    border-radius: 12px;
+}
+
+.sub:hover {
+    padding: 15px;
+    transition: 0.2s;
+    background-color: #E5E1E0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sub h4 {
+    font-weight: lighter;
+}
+
+#adr {
+    width: 80%;
+    text-align: center;
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg px-3 py-2">
+        <div class="container-fluid">
+          <a class="navbar-brand px-3 ms-5" href="Homepage.html" style="font-size: 2em;"><span>Code</span>rs.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item nav-btn mx-3 my-auto">
+                <a class="nav-link active color-black fw-normal" aria-current="page" href="Homepage.html">Home</a>
+              </li>
+              <li class="nav-item nav-btn mx-3 my-auto">
+                <a class="nav-link color-black fw-normal" href="courses.html">Courses</a>
+              </li>
+              <li class="nav-item nav-btn mx-3 my-auto">
+                <a class="nav-link color-black fw-normal" href="#">About us</a>
+              </li>
+              <li class="nav-item nav-btn mx-3 my-auto">
+                <a class="nav-link color-black fw-normal" href="#">Our Service</a>
+              </li>
+              <li class="nav-item mx-3">
+                <div class="btn-profile d-flex p-2 justify-content-center radius-3 dropdown">
+                    <a  class="px-2 d-flex flex-column justify-content-center text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/img/profile-pic.jpg" alt="" class="rounded-circle mx-auto" style="width: 3em;"></a>
+                    <a href="#" class="my-auto text-decoration-none text-black p-0 dropdown-toggle dropdown-toggle-split" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-start rounded-bottom">
+                        <li>
+                            <div class="dropdown-item">
+                                <p class="mb-2 fs-05">Signed in as</p>
+                                <p class="fw-bolder m-0">Krisna Putra</p>
+                                <p class="fs-05 m-0">Brawijaya University</p>
+                            </div>
+                        </li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="Profile.html">Your Profile</a></li>
+                        <li><a class="dropdown-item" href="LoginPage.html">Logout</a></li>
+                    </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <main class="container-fluid my-3 py-3 px-5">
+        <div class="container-fluid ps-5">
+            <div class="d-flex flex-lg-row align-items-start content">
+                <div class="nav flex-column basis-18 nav-pills me-1" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <div class="d-flex flex-column justify-content-start inner-content" style="margin-bottom: 14rem;">
+                    <button class="nav-link text-start text-black pe-5 color-black fw-bold active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"
+                    >Profile</button>
+                    <button class="nav-link text-start text-black pe-5 color-black fw-bold" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" >Become Lecturer</button>
+                    <button class="nav-link text-start text-black pe-5 color-black fw-bold" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" >My Course</button>
+                  </div>
+                  <div class="d-flex flex-column justify-content-end">
+                    <a class="nav-link text-start text-black pe-5 color-black fw-bold" href="LoginPage.html" >Logout</a>
+                  </div>
+                </div>
+                <div class="tab-content container-fluid" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                    <div class="d-flex flex-column p-4 rounded-4 border content">
+                        <header class="profile">
+                            <h4 class="fw-bold fs-1 text-capitalize">profile</h4>
+                        </header>
+                        <article>
+                            <div class="profile-detail d-flex flex-column justify-content-center py-1">
+                                <img src="assets/img/profile-pic.jpg" class="rounded-circle mx-auto" style="width:13rem" alt="">
+                                <div class="keterangan py-2" >
+                                    <h3 class="text-uppercase text-center fw-bolder m-0">KRISNA PUTRA MARIYANTO</h3>
+                                    <p class="text-black-50 text-center mb-1 mt-0" style="font-size: 1.3em;">krisnaputra@student.ub.ac.id</p>
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <a href="" class="btn color-blue px-6 py-2-5"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent-course pt-3">
+                                <h4 class="fw-bold text-capitalize">recent course accessed</h5>
+                                    <div class="d-flex flex-row justify-content-between gap-50 py-2" style="padding-left: 0;">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="assets/img/cybersecurity-2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 p-2">
+                                                <div class="d-flex py-1" style="height: 50px;">
+                                                    <a href="" class="text-decoration-none">
+                                                        <img src="assets/img/review/jasmine.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                                    </a>
+                                                    <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Jasmine Asyifania</a>
+                                                </div>
+                                                <div class="pt-2" style="height: 65px;">
+                                                    <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">First Step on Cyber Security</a></p>
+                                                </div>
+                                                <div class="py-1">
+                                                    <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 4.5 / 5.0</p>
+                                                </div>
+                                                <hr class="border-2 my-1">
+                                                <div class="py-2 d-flex justify-content-center">
+                                                    <a href="course-detail.html" class="btn btn-success border-0 text-decoration-none text-center my-auto">See Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="assets/img/uiux.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 p-2">
+                                                <div class="d-flex py-1" style="height: 50px;">
+                                                    <a href="" class="text-decoration-none">
+                                                        <img src="assets/img/review/salma.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                                    </a>
+                                                    <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Laela Salma Lathania</a>
+                                                </div>
+                                                <div class="pt-2" style="height: 65px;">
+                                                    <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">UI/UX Intermediate Course</a></p>
+                                                </div>
+                                                <div class="py-1">
+                                                    <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 5.0 / 5.0</p>
+                                                </div>
+                                                <hr class="border-2 my-1">
+                                                <div class="py-2 d-flex justify-content-center">
+                                                    <a href="course-detail.html" class="btn btn-success border-0 text-decoration-none text-center my-auto">See Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="assets/img/network-engineering-2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 p-2">
+                                                <div class="d-flex py-1" style="height: 50px;">
+                                                        <a href="" class="text-decoration-none">
+                                                            <img src="assets/img/profile-pic.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                                        </a>
+                                                        <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Krisna Putra</a>
+                                                </div>
+                                                <div class="pt-2" style="height: 65px;">
+                                                    <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">Network Engineering Fundamental</a></p>
+                                                </div>
+                                                <div class="py-1">
+                                                    <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 5.0 / 5.0</p>
+                                                </div>
+                                                <hr class="border-2 my-1">
+                                                <div class="py-2 d-flex justify-content-center">
+                                                    <a href="course-detail.html" class="btn btn-success border-0 text-decoration-none text-center my-auto">See Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="assets/img/web-programming-2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 p-2">
+                                                <div class="d-flex py-1" style="height: 50px;">
+                                                    <a href="" class="text-decoration-none">
+                                                        <img src="assets/img/review/ical.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                                    </a>
+                                                    <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Muhammad Rafi Faisal</a>
+                                                </div>
+                                                <div class="pt-2" style="height: 65px;">
+                                                    <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">Web Programming Fundamental</a></p>
+                                                </div>
+                                                <div class="py-1">
+                                                    <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 4.0 / 5.0</p>
+                                                </div>
+                                                <hr class="border-2 my-1">
+                                                <div class="py-2 d-flex justify-content-center">
+                                                    <a href="course-detail.html" class="btn btn-success border-0 text-decoration-none text-center my-auto">See Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </article>
+                    </div> 
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                    <div class="d-flex flex-column p-4 rounded-4 border content">
+                        <header class="lecturer mb-3">
+                            <h4 class="fw-bolder fs-1 text-capitalize">lecturer page</h4>
+                        </header>
+                        <article>
+                            <div class="recent-course pt-3 mb-4">
+                                <h4 class="fw-bold text-capitalize">your course</h5>
+                                    <div class="d-flex flex-row justify-content-between gap-50 py-2" style="padding-left: 0;">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="assets/img/cybersecurity-2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 p-2">
+                                                <div class="d-flex py-1" style="height: 50px;">
+                                                        <a href="" class="text-decoration-none">
+                                                            <img src="assets/img/profile-pic.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                                        </a>
+                                                        <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Krisna Putra</a>
+                                                </div>
+                                                <div class="pt-2" style="height: 65px;">
+                                                    <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">First Step on Cyber Security</a></p>
+                                                </div>
+                                                <div class="py-1">
+                                                    <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 4.5 / 5.0</p>
+                                                </div>
+                                                <hr class="border-2 my-1">
+                                                <div class="py-2 d-flex justify-content-center">
+                                                    <a href="course-detail.html" class="btn btn-success border-0 text-decoration-none text-center my-auto">See Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="assets/img/uiux.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 p-2">
+                                                <div class="d-flex py-1" style="height: 50px;">
+                                                        <a href="" class="text-decoration-none">
+                                                            <img src="assets/img/profile-pic.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                                        </a>
+                                                        <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Krisna Putra</a>
+                                                </div>
+                                                <div class="pt-2" style="height: 65px;">
+                                                    <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">UI/UX Intermediate Course</a></p>
+                                                </div>
+                                                <div class="py-1">
+                                                    <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 5.0 / 5.0</p>
+                                                </div>
+                                                <hr class="border-2 my-1">
+                                                <div class="py-2 d-flex justify-content-center">
+                                                    <a href="course-detail.html" class="btn btn-success border-0 text-decoration-none text-center my-auto">See Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="assets/img/network-engineering-2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 p-2">
+                                                <div class="d-flex py-1" style="height: 50px;">
+                                                        <a href="" class="text-decoration-none">
+                                                            <img src="assets/img/profile-pic.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                                        </a>
+                                                        <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Krisna Putra</a>
+                                                </div>
+                                                <div class="pt-2" style="height: 65px;">
+                                                    <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">Network Engineering Fundamental</a></p>
+                                                </div>
+                                                <div class="py-1">
+                                                    <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 5.0 / 5.0</p>
+                                                </div>
+                                                <hr class="border-2 my-1">
+                                                <div class="py-2 d-flex justify-content-center">
+                                                    <a href="course-detail.html" class="btn btn-success border-0 text-decoration-none text-center my-auto">See Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="assets/img/web-programming-2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 p-2">
+                                                <div class="d-flex py-1" style="height: 50px;">
+                                                        <a href="" class="text-decoration-none">
+                                                            <img src="assets/img/profile-pic.jpg" alt="" class="rounded-pill" style="width: 1.4em;">
+                                                        </a>
+                                                        <a href="people-detail.html" class="ps-2 text-decoration-none text-black fw-bold">Krisna Putra</a>
+                                                </div>
+                                                <div class="pt-2" style="height: 65px;">
+                                                    <p class="card-title"><a href="course-detail.html" class="text-black-50 text-decoration-none text-center fw-bold fs-09">Web Programming Fundamental</a></p>
+                                                </div>
+                                                <div class="py-1">
+                                                    <p class="fw-bold m-0" style="color: #facd2c;"><i class="fa-solid fa-star"></i> 4.0 / 5.0</p>
+                                                </div>
+                                                <hr class="border-2 my-1">
+                                                <div class="py-2 d-flex justify-content-center">
+                                                    <a href="course-detail.html" class="btn btn-success border-0 text-decoration-none text-center my-auto">See Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="upload-course px-4 py-3 border rounded-4 form-color">
+                                <h4 class="w-100 text-center text-capitalize fw-bold">upload your course</h4>
+                                <form class="w-100 d-flex flex-column p-2" action="">
+                                    <div class="d-flex flex-column gap-1 py-3">
+                                        <label for="title" class="fw-bold mb-1">Title</label>
+                                        <input type="text" class="form-control rounded-pill">
+                                    </div>
+                                    <div class="d-flex flex-column gap-1 pb-3">
+                                        <label for="title" class="fw-bold mb-1">Attach File</label>
+                                        <input type="file" class="w-50" name="" id="">
+                                    </div>
+                                    <div class="d-flex gap-1 justify-content-center">
+                                        <button type="submit" class="btn btn-secondary rounded-pill w-25 form-btn-color color-black">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </article>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                    <div class="d-flex flex-column p-4 rounded-4 border content">
+                        <header class="profile">
+                            <h4 class="fw-bold fs-1 text-capitalize">MY COURSE</h4>
+                        </header>
+                        <article>
+                            <div class="d-flex flex-column">
+                                <div class="p-3 my-4 rounded-4 bg-gray d-flex flex-column justify-content-between gap-50" style="background-image: url('assets/img/web-programming.png'); background-repeat: no-repeat; background-size: cover;">
+                                    <a href="course-detail.html" class="text-decoration-none"><h3 class="title pb-3">Web Programming</h3></a>
+                                    <div class="d-flex justify-content-end">
+                                        <a href="course-detail.html" class="btn btn-light rounded-circle text-decoration-none">
+                                            <img src="assets/img/arrow-right.png" alt="" style="width: 0.8em; height: 1em;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-3 my-4 rounded-4 bg-gray d-flex flex-column justify-content-between gap-50" style="background-image: url('assets/img/network-engineering.jpg'); background-repeat: no-repeat; background-size: cover;">
+                                    <a href="course-detail.html" class="text-decoration-none"><h3 class="title pb-3">Network Engineering</h3></a>
+                                    <div class="d-flex justify-content-end">
+                                        <a href="course-detail.html" class="btn btn-light rounded-circle text-decoration-none">
+                                            <img src="assets/img/arrow-right.png" alt="" style="width: 0.8em; height: 1em;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-3 my-4 rounded-4 bg-gray d-flex flex-column justify-content-between gap-50" style="background-image: url('assets/img/cybersecurity.jpeg'); background-repeat: no-repeat; background-size: cover;">
+                                    <a href="course-detail.html" class="text-decoration-none"><h3 class="title pb-3">Cyber Security</h3></a>
+                                    <div class="d-flex justify-content-end">
+                                        <a href="course-detail.html" class="btn btn-light rounded-circle text-decoration-none">
+                                            <img src="assets/img/arrow-right.png" alt="" style="width: 0.8em; height: 1em;">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid px-3 py-2 d-flex justify-content-between">
+        <div class="d-flex">
+            <a class="navbar-brand px-3 ms-5" href="Homepage.html" style="font-size: 2em;"><span>Code</span>rs.</a>
+            <p class="fw-normal px-3 fs-09 my-auto">&copy; All right reserved</p>
+        </div>
+        <div class="d-flex pe-5 me-2">
+            <p class="my-auto fs-15"><i class="fa-brands fa-facebook px-3 "></i></p>
+            <p class="my-auto fs-15"><i class="fa-brands fa-twitter px-3 "></i></p>
+            <p class="my-auto fs-15"><i class="fa-brands fa-linkedin px-3 "></i></p>
+            <p class="my-auto fs-15"><i class="fa-brands fa-instagram px-3 "></i></p>
+            <p class="my-auto fs-15"><i class="fa-brands fa-tiktok px-3 "></i></p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0cf4c39c1c.js" crossorigin="anonymous"></script>
+</body>
+</html>
